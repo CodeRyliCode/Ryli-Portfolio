@@ -30,7 +30,7 @@ export const EXPERIENCES = [
       "Converted my Nucamp React project to React Native in order to reach a broader audience with a user-friendly mobile application.",
       "Developed server-side applications using NodeJS, Express, and MongoDB to store and manage back-end data, authenticate users, and ensure cybersecurity. Leveraged these open-source technologies to seamlessly integrate with both the web and mobile applications."
     ],
-    technologies: ["HTML", "CSS", "React.js", "React Native"],
+    technologies: ["React Native", "CSS", "React.js", "MongoDB", "Node.js", "Express", "Bootstrap"],
   }
 ];
 
