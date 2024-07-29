@@ -12,7 +12,7 @@ export const EXPERIENCES = [
     company: "Intuit",
     description: [
       "Improved data discoverability by 26% of clean, consumable data by developing and illustrating new data models.",
-      "Successfully deployed a comprehensive feature developed during Global Engineering Days, a weeklong hackathon. This project aimed to provide users with a detailed and comprehensive data overview, leading to 20% increased data outreach to users.",
+      "Successfully deployed a comprehensive feature developed during Global Engineering Days, a weeklong hackathon. This project aimed to provide users with a detailed and comprehensive data overview, leading to a 20% increased data outreach to users.",
       "Developed new APIs while integrating security features and adhering to OpenAPI specifications.",
       "Developed a step-by-step guide for instrumentation, empowering team members to implement and monitor instrumentation clicks, which led to a 31% increase in team utilization, laying the foundation for building illustrative dashboards and charts.",
       "Ensured high-quality standards for all front-end code, conducting thorough reviews and testing to maintain excellence in deliverables.",
@@ -27,7 +27,8 @@ export const EXPERIENCES = [
     description: [
       "Built a fully responsive website with Bootstrap that utilized JavaScript, HTML, and CSS.",
       "Implemented Redux in my Nucamp React project which led to optimized application performance and state management.",
-      "Converted my Nucamp React project to React Native in order to reach a broader audience with a user-friendly mobile application."
+      "Converted my Nucamp React project to React Native in order to reach a broader audience with a user-friendly mobile application.",
+      "Developed server-side applications using NodeJS, Express, and MongoDB to store and manage back-end data, authenticate users, and ensure cybersecurity. Leveraged these open-source technologies to seamlessly integrate with both the web and mobile applications."
     ],
     technologies: ["HTML", "CSS", "React.js", "React Native"],
   }
