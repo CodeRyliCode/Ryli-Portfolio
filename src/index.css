@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.clickable-icon {
+    cursor: pointer;
+}
+
 :root {
     font-family: "Inter", sans-serif;
 }

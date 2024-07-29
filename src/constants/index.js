@@ -1,71 +1,54 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a creative front-end developer with a curiosity that leads me to take on challenges and leverage my natural problem-solving abilities in order to build better user interfaces.  My 3 years of experience have led me to master technologies like React.js and Typescript. Additionally, I have explored back-end technologies such as Java and contributed to production with minimal assistance.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I strive to learn new technologies whenever I have the chance. Getting to keep my mind sharp by coding new projects makes me happy. In my free time, I enjoy sunshine, my puppies, my family, and the beach.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2022 - Present",
+    role: "Software Engineer II",
+    company: "Intuit",
+    description: [
+      "Improved data discoverability by 26% of clean, consumable data by developing and illustrating new data models.",
+      "Successfully deployed a comprehensive feature developed during Global Engineering Days, a weeklong hackathon. This project aimed to provide users with a detailed and comprehensive data overview, leading to 20% increased data outreach to users.",
+      "Developed new APIs while integrating security features and adhering to OpenAPI specifications.",
+      "Developed a step-by-step guide for instrumentation, empowering team members to implement and monitor instrumentation clicks, which led to a 31% increase in team utilization, laying the foundation for building illustrative dashboards and charts.",
+      "Ensured high-quality standards for all front-end code, conducting thorough reviews and testing to maintain excellence in deliverables.",
+      "Worked closely with cross-functional teams to develop innovative solutions to complex problems, demonstrating strong collaboration and communication skills."
+    ],
+    technologies: ["JavaScript", "React.js", "CSS", "Typescript", "Java"],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    role: "Front-End Developer",
+    company: "Nucamp Coding Bootcamp",
+    description: [
+      "Built a fully responsive website with Bootstrap that utilized JavaScript, HTML, and CSS.",
+      "Implemented Redux in my Nucamp React project which led to optimized application performance and state management.",
+      "Converted my Nucamp React project to React Native in order to reach a broader audience with a user-friendly mobile application."
+    ],
+    technologies: ["HTML", "CSS", "React.js", "React Native"],
+  }
 ];
 
 export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "Vercel"],
   },
   {
-    title: "Blogging Platform",
+    title: "Crypto Check",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A cryptocurrency app, created with React, that efficiently and seamlessly allows a user to search \n" +
+        "and access the current price, market cap, and price change of any crypto coin. Utilizes the \n" +
+        "CoinGecko API which proves to be comprehensive and reliable.",
+    technologies: ["React", "CSS", "HTML", "Firebase"],
   },
 ];
 
