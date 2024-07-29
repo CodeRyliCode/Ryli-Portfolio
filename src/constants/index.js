@@ -22,7 +22,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2021 - 2022",
-    role: "Front-End Developer",
+    role: "Full Stack Web and Mobile Developer",
     company: "Nucamp Coding Bootcamp",
     description: [
       "Built a fully responsive website with Bootstrap that utilized JavaScript, HTML, and CSS.",
