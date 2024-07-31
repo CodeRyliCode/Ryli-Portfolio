@@ -1,7 +1,9 @@
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I am a creative front-end developer with a curiosity that leads me to take on challenges and leverage my natural problem-solving abilities in order to build better user interfaces.  My 3 years of experience have led me to master technologies like React.js and Typescript. Additionally, I have explored back-end technologies such as Java and contributed to production with minimal assistance.`;
+export const HERO_CONTENT = `Eager engineer with a proven track record of excelling in continuous delivery practices. Dedicated to mentoring 
+team members in areas of expertise, such as React, Typescript, and aspects of server-side logic. Passionate 
+about driving data success with solid instrumentation and metrics.`;
 
 export const ABOUT_TEXT = `I strive to learn new technologies whenever I have the chance. Getting to keep my mind sharp by coding new projects makes me happy. In my free time, I enjoy sunshine, my puppies, my family, and the beach.`;
 
